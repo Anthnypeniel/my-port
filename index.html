@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Peniel">
+    <meta name="description" content="This is my portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Port</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ba11e5ecb.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" alt="" class="logo"> -->
+                 <p class="head-logo">Peniel</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-sharp fa-regular fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>hi, i'm <span>Peniel</span> <br> from Africa</h1>
+            </div>
+        </div>
+    </div>
+<!-- ------------about------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am an upcoming software developer but a full time web developer with vast knowlege of all required languages for certified frontend developer </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience </p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Developer</span><br>designing websites from scratch</li>
+                            <li><span>App developnment</span><br>Building androids app</li>
+                            <li><span>Software Developer</span><br>Developing Software for Companies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Frontend Developer</span><br>Two years</li>
+                            <li><span>web app developnment </span>This Year<br></li>
+                            <!-- <li><span>app developnment</span><br>building androids/ios app</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bsc Computer science</span><br>NIgeria Able University</li>
+                            <li><span>Freecodecamp certification</span><br>web app developnment</li>
+                            <!-- <li><span></span><br>building androids/ios app</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------services------------------------------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p>Designing website most fascinating interface according to the ui/ux taste</p>
+                    <a href="learn More">learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Frontend Developer</h2>
+                    <p>making use of the available frontend frameworks like angular and co to provide the best coding/development experience for CLients</p>
+                    <a href="learn More">learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Deveopment</h2>
+                    <p>Making use of the like of Flutter to provide the best app experience with user friendly interfac</p>
+                    <a href="learn More">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- ----------------------port---------------------------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>A </p>
+                        <a href=""><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>COMING SOON?</p>
+                        <a href=""><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>online shopping App</h3>
+                        <p>Making use of flutter to text my efficiency in the app development world </p>
+                        <a href=""><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="work.html">See More</a>
+        </div>
+      </div>
+
+      <!-- -----------------------contact-------------------- -->
+
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> anthonydaso530@gmail.com</p>
+                    <p> <i class="fa-regular fa-phone-arrow-down-left"></i></i></i> 08158701042</p>
+                    <div class="social-icon">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a class="btn btn2" href="images/C V Anthony.txt" download >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button> 
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright Peniel Portfolio  made <i class="fa-solid fa-heart"></i> Peniel software Development Team </p>
+        </div>
+      </div>
+
+
+   
+
+    <!-- <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form> -->
+
+      <script  src="script.js"></script>
+      
+      <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzhaharf5aTJVJ60bpbpO94Es93VU4r-C0BiWZLTJxzKHaWGdQh4RC-CIKKCNzN8Lqz/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
+</body>
+</html>  

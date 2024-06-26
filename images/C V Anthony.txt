@@ -1,0 +1,56 @@
+DASO GABRIEL ANTHONY
+
+51 irepodun street,Ondo State, 340001, Nigeria.
+Email: daso.anthony@email.com
+Phone: +234 8158701042
+twitter: peniel_6
+GitHub: github.com/Anthnypeniel
+
+Objective:
+A motivated and detail-oriented professional seeking a challenging position as a web developer, app developer, or software engineer where my skills in programming, problem-solving, and creative thinking can contribute to the growth and success of the organization.
+
+Education:
+
+Bachelor of Science in Computer Science
+Ondo state University Of Science and Technology,okitipupa,Ondo State, Nigeria
+Month Year - incoming
+
+Skills:
+
+Proficient in HTML5, CSS3, JavaScript (ES6+), TypeScript
+Experience with front-end frameworks/libraries: React, Angular, Vue.js
+Backend development skills using Node.js, Express.js, MongoDB, SQL
+Familiarity with mobile app development: React Native, Swift (iOS), Kotlin (Android)
+Strong understanding of software engineering principles, algorithms, and data structures
+Version control systems: Git, GitHub
+Agile development methodologies: Scrum, Kanban
+Projects:
+
+Project Name
+Role: Developer
+
+Description: Brief overview of the project, technologies used, and your specific contributions.
+GitHub Link: Link to the project repository (if applicable).
+Work Experience:
+
+# coming soon
+/*
+Software Developer Intern
+Company Name, City, State
+Month Year - Month Year
+*/
+
+Assisted in the development of web applications using technologies such as React and Node.js.
+Participated in team meetings, code reviews, and testing phases of software development lifecycle.
+Collaborated with senior developers to troubleshoot and resolve technical issues.
+Additional Skills and Certifications:
+
+Certification in [relevant certification]
+Proficient in [additional relevant skill]
+Languages:
+
+English (Native proficiency)
+[Additional languages, if applicable]
+References:
+
+Available upon request.
